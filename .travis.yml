@@ -6,7 +6,8 @@ branches:
   - pelican
 
 install:
-  - pip install pelican
+  - pip install --upgrade pip
+  - pip install pelican==4.0.1
 
 deploy:
   provider: pages
