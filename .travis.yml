@@ -10,7 +10,7 @@ sudo: required
 install:
   - sudo pip install --upgrade pip
   - pip install pelican==4.0.1 --user
-  - pip install ghp-import==0.5.5
+  - pip install ghp-import==0.5.5 --user
 
 script:
   - make publish
