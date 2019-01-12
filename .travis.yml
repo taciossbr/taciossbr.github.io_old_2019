@@ -5,8 +5,10 @@ branches:
   only:
   - pelican
 
+sudo: required
+
 install:
-  - pip install --upgrade pip
+  - sudo pip install --upgrade pip
   - pip install pelican==4.0.1
 
 deploy:
