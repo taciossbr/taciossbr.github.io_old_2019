@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = 'br'
+DEFAULT_LANG = 'pt-br'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,12 +19,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Categorias', '/categories.html'),)
 
 # Social widget
 SOCIAL = (('Github', 'http://github.com/taciossbr'),
-         ('Medium', 'http://medium.com/@taciossbr'))
+         ('Medium', 'http://medium.com/@taciossbr'),
+         ('Twitter', 'http://twitter.com/taciossbr'))
 
 DEFAULT_PAGINATION = 10
 
@@ -40,13 +39,13 @@ ARTICLE_URL = 'posts/{slug}.html'
 ARTICLE_SAVE_AS = 'posts/{slug}.html'
 
 # Theme
-THEME = "themes/pessoal/casper"
-TWITTER_USERNAME = "taciossbr"
-AUTHOR_LOCATION = "São Paulo - Brasil"
-AUTHOR_PIC_URL = "/images/profile.jpeg"
-DEFAULT_HEADER_IMAGE = "/images/header.jpg"
+THEME = "themes/pelican-clean-blog"
+HEADER_COVER = '/images/header.jpg'
 
-DISPLAY_PAGES_ON_MENU = True
+# DISPLAY_PAGES_ON_MENU = True
 
 
-DISPLAY_ARCHIVES_ON_MENU = False
+# DISPLAY_ARCHIVES_ON_MENU = False
+
+
+COLOR_SCHEME_CSS = 'github.css'
