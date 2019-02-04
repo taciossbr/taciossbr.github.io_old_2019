@@ -1,10 +1,11 @@
 ---
 title: Entenda o desempacotamento do Python
-date: 2019-02-02 15:40
+date: 2019-02-04 10:00
 tags: python, unpacking-tuple, programacao
 category: python
 slug: entenda-o-desempacotamento-do-python
-summary: # TODO
+summary: Entenda o que é o desempacotamento no Python e veja como usá-lo em seu
+         código.
 ---
 
 Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvida
