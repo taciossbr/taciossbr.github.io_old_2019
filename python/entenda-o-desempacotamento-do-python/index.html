@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang=pt>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvidaalguma o de trocar os valores das variáveis a e b. 12345678// Codigo classico em linguagem cint main()&amp;#123;    int a = 5, b">
+<meta name="keywords" content="python,programacao,estrutura-de-dados">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Entenda o desempacotamento do Python">
+<meta property="og:url" content="https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/index.html">
+<meta property="og:site_name" content="Tacio S. S.">
+<meta property="og:description" content="Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvidaalguma o de trocar os valores das variáveis a e b. 12345678// Codigo classico em linguagem cint main()&amp;#123;    int a = 5, b">
+<meta property="og:locale" content="pt-br">
+<meta property="og:updated_time" content="2019-03-13T20:40:52.619Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Entenda o desempacotamento do Python">
+<meta name="twitter:description" content="Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvidaalguma o de trocar os valores das variáveis a e b. 12345678// Codigo classico em linguagem cint main()&amp;#123;    int a = 5, b">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Entenda o desempacotamento do Python</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Início</a></li>
+         
+          <li><a href="/archives/">Artigos</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/VMs/tipos-de-placas-de-rede-no-virtualbox/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Post Anterior</span>
+      <span id="i-next" class="info" style="display:none;">Post Seguinte</span>
+      <span id="i-top" class="info" style="display:none;">Acima</span>
+      <span id="i-share" class="info" style="display:none;">Compartihar Post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&text=Entenda o desempacotamento do Python"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&is_video=false&description=Entenda o desempacotamento do Python"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Entenda o desempacotamento do Python&body=Check out this article: https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&name=Entenda o desempacotamento do Python&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Desempacotamento-com-Python"><span class="toc-number">1.</span> <span class="toc-text">Desempacotamento com Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Melhorando-a-legibilidade-do-codigo"><span class="toc-number">2.</span> <span class="toc-text">Melhorando a legibilidade do código</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ignorando-valores"><span class="toc-number">3.</span> <span class="toc-text">Ignorando valores</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Desempacotando-valores-de-iteraveis-de-tamanho-variavel"><span class="toc-number">4.</span> <span class="toc-text">Desempacotando valores de iteráveis de tamanho variável</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Passando-um-iteravel-ou-dicionario-como-argumentos-de-uma-funcao"><span class="toc-number">5.</span> <span class="toc-text">Passando um iterável ou dicionário como argumentos de uma função</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Entenda o desempacotamento do Python
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Tacio S. S.</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-02-04T12:00:00.000Z" itemprop="datePublished">2019-02-04</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/python/">python</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/estrutura-de-dados/">estrutura-de-dados</a>, <a class="tag-link" href="/tags/programacao/">programacao</a>, <a class="tag-link" href="/tags/python/">python</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvida<br>alguma o de trocar os valores das variáveis <code>a</code> e <code>b</code>.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Codigo classico em linguagem c</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">5</span>, b = <span class="number">7</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> tmp = a;</span><br><span class="line">    a = b;</span><br><span class="line">    b = tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Mas se a linguagem for Python, existe uma outra maneira:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">5</span></span><br><span class="line">b = <span class="number">7</span></span><br><span class="line">a, b = b, a</span><br></pre></td></tr></table></figure>
+<p>Ok até agora não tivemos muitas novidades, provavelmente você já viu isso em<br>algum lugar. Mas neste post eu vou apresentar mais<br>algumas possibilidades deste <strong>desempacotamento</strong> do Python!</p>
+<h2 id="Desempacotamento-com-Python"><a href="#Desempacotamento-com-Python" class="headerlink" title="Desempacotamento com Python"></a>Desempacotamento com Python</h2><p>Algo que eu faço muito resolvendo exercícios do<br><a href="https://www.urionlinejudge.com.br" target="_blank" rel="noopener">URI</a> é ler a linha dar um <code>split</code> na linha<br>e converter todos os elementos para um tipo especifico, geralmente <code>int</code>.</p>
+<p>Claro que podemos fazer isso de várias formas, por exemplo:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">linha = input().split()</span><br><span class="line"></span><br><span class="line">a = int(linha[<span class="number">0</span>])</span><br><span class="line">b = int(linha[<span class="number">1</span>])</span><br><span class="line">c = int(linha[<span class="number">2</span>])</span><br><span class="line">d = int(linha[<span class="number">3</span>])</span><br></pre></td></tr></table></figure>
+<p>Esse exemplo funcionaria, mas seria extremamente lento de se escrever isso se<br>tivermos várias variáveis diferentes na linha, então hoje eu uso muito, mas<br>muito mesmo essa solução com list-comprehensions:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a, b, c, d = [int(x) <span class="keyword">for</span> x <span class="keyword">in</span> input().split()]</span><br></pre></td></tr></table></figure>
+<p>De cinco linhas para uma até que nos livramos de uma boa parte de código<br>repetitivo!</p>
+<h2 id="Melhorando-a-legibilidade-do-codigo"><a href="#Melhorando-a-legibilidade-do-codigo" class="headerlink" title="Melhorando a legibilidade do código"></a>Melhorando a legibilidade do código</h2><p>Agora vamos a um exemplo menos bobinho, e também com menos cara de exercício<br>de programação, sem unpacking:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curso = get_curso_by_id(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">"Nome:"</span>, curso[<span class="number">1</span>])</span><br><span class="line">print(<span class="string">"Coordenador:"</span>, curso[<span class="number">3</span>])</span><br><span class="line">print(<span class="string">"Data de Inicio:"</span>, curso[<span class="number">4</span>])</span><br><span class="line">print(<span class="string">"Descrição:"</span>, curso[<span class="number">2</span>])</span><br></pre></td></tr></table></figure>
+<p>A função <code>get_curso_by_id()</code> retorna uma tupla com: id, nome, descrição,<br>coordenador, data de inicio. Referenciar estes campos por seu índices é<br>uma solução feia que permite muitos erros. Então vamos deixar este código mais<br>legível com desempacotamento:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">id_curso, nome, desc, coordenador, dt_inicio = get_curso_by_id(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">"Nome:"</span>, nome)</span><br><span class="line">print(<span class="string">"Coordenador:"</span>, coordenador)</span><br><span class="line">print(<span class="string">"Data de Inicio:"</span>, dt_inicio)</span><br><span class="line">print(<span class="string">"Descrição:"</span>, desc)</span><br></pre></td></tr></table></figure>
+<p>Muito mais legível!</p>
+<p>Agora vamos dizer que a data retorna também uma tupla com anos, mês e dia. Para<br>separar esses valores também nos poderíamos fazer o seguinte:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">id_curso, nome, desc, coordenador, (ano, mes, dia) = get_curso_by_id(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">"Nome:"</span>, nome)</span><br><span class="line">print(<span class="string">"Coordenador:"</span>, coordenador)</span><br><span class="line">print(<span class="string">"Data de Inicio:"</span>, <span class="string">"&#123;&#125;/&#123;&#125;/&#123;&#125;"</span>.format(dia, mes, ano))</span><br><span class="line">print(<span class="string">"Descrição:"</span>, desc)</span><br></pre></td></tr></table></figure>
+<h2 id="Ignorando-valores"><a href="#Ignorando-valores" class="headerlink" title="Ignorando valores"></a>Ignorando valores</h2><p>Agora vamos dizer que você precisa apenas do nome do curso e do coordenador,<br>o Python não possui nenhuma sintaxe específica pra isso, mas você pode<br>simplesmente atribuir esses campos para uma variável aleatória, como <code>_</code>:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_, nome, _, coordenador, _ = get_curso_by_id(<span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="Desempacotando-valores-de-iteraveis-de-tamanho-variavel"><a href="#Desempacotando-valores-de-iteraveis-de-tamanho-variavel" class="headerlink" title="Desempacotando valores de iteráveis de tamanho variável"></a>Desempacotando valores de iteráveis de tamanho variável</h2><p>Tudo isso e muito bonito mas é no caso de iteráveis que eu não sei exatamente o<br>tamanho? É agora que entram as <code>*</code> no Python, mas acalme-se meu jovem<br>traumatizado pelos ponteiros de C essa estrelinha não tem nenhuma relação com<br>eles.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>aluno</span><br><span class="line">(<span class="string">'João'</span>, <span class="string">'joao@bol.com.br'</span>, <span class="string">'(11) 93233-32323'</span>, <span class="string">'(11) 93233-3863'</span>, <span class="string">'(11) 98603-32323'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>nome, email, *telefones</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>nome</span><br><span class="line"><span class="string">'João'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>email</span><br><span class="line"><span class="string">'joao@bol.com.br'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>telefones</span><br><span class="line">[<span class="string">'(11) 93233-32323'</span>, <span class="string">'(11) 93233-3863'</span>, <span class="string">'(11) 98603-32323'</span>]</span><br></pre></td></tr></table></figure>
+<p>Em detalhes: <code>nome</code> e <code>email</code> receberam os dois primeiros elementos, e<br><code>telefones</code> recebeu todo o resto.</p>
+<p>E claro que as ‘estrelinhas’ não servem só pra desempacotar os últimos<br>elementos: elas podem estar no meio, no incio e no fim da expressões de<br>desempacotamento.</p>
+<p>A única exigência e que exista apenas um ‘valor estrelado’ na expressão:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c, *d = l</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span></span><br><span class="line">SyntaxError: two starred expressions <span class="keyword">in</span> assignment</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Passando-um-iteravel-ou-dicionario-como-argumentos-de-uma-funcao"><a href="#Passando-um-iteravel-ou-dicionario-como-argumentos-de-uma-funcao" class="headerlink" title="Passando um iterável ou dicionário como argumentos de uma função"></a>Passando um iterável ou dicionário como argumentos de uma função</h2><p>Essa talvez você já tenha visto em algum lugar:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; def a(*args, **kwargs):</span><br><span class="line">...     print(args)</span><br><span class="line">...     print(kwargs)</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; a(1, 2, &apos;a&apos;, &apos;b&apos;, z=9, x=8)</span><br><span class="line">(1, 2, &apos;a&apos;, &apos;b&apos;)</span><br><span class="line">&#123;&apos;z&apos;: 9, &apos;x&apos;: 8&#125;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>E aí, o que achou dessa forma de desempacotar dados com o Python?</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Por favor, ative o JavaScript para visualizar o conteúdo.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Início</a></li>
+         
+          <li><a href="/archives/">Artigos</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Desempacotamento-com-Python"><span class="toc-number">1.</span> <span class="toc-text">Desempacotamento com Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Melhorando-a-legibilidade-do-codigo"><span class="toc-number">2.</span> <span class="toc-text">Melhorando a legibilidade do código</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ignorando-valores"><span class="toc-number">3.</span> <span class="toc-text">Ignorando valores</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Desempacotando-valores-de-iteraveis-de-tamanho-variavel"><span class="toc-number">4.</span> <span class="toc-text">Desempacotando valores de iteráveis de tamanho variável</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Passando-um-iteravel-ou-dicionario-como-argumentos-de-uma-funcao"><span class="toc-number">5.</span> <span class="toc-text">Passando um iterável ou dicionário como argumentos de uma função</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&text=Entenda o desempacotamento do Python"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&is_video=false&description=Entenda o desempacotamento do Python"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Entenda o desempacotamento do Python&body=Check out this article: https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&title=Entenda o desempacotamento do Python"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/&name=Entenda o desempacotamento do Python&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Compartilhar</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 taciossbr
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Início</a></li>
+         
+          <li><a href="/archives/">Artigos</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'taciossbr-github';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>

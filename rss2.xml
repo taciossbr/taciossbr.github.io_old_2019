@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tacio S. S.</title>
+    <link>https://taciossbr.github.io/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Wed, 13 Mar 2019 20:39:57 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Tipos de placas de rede no VirtualBox</title>
+      <link>https://taciossbr.github.io/VMs/tipos-de-placas-de-rede-no-virtualbox/</link>
+      <guid>https://taciossbr.github.io/VMs/tipos-de-placas-de-rede-no-virtualbox/</guid>
+      <pubDate>Tue, 12 Mar 2019 22:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;O VirtualBox já é um velho conhecido dos usuários de linux &lt;s&gt;que ficam testando&lt;br&gt;todas as distros do distrowatch&lt;/s&gt; aficionados por
+          
+        
+      
+      </description>
+      
+      <comments>https://taciossbr.github.io/VMs/tipos-de-placas-de-rede-no-virtualbox/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Entenda o desempacotamento do Python</title>
+      <link>https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/</link>
+      <guid>https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/</guid>
+      <pubDate>Mon, 04 Feb 2019 12:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;Um dos exercícios mais comuns nas aulas básicas de programação é sem dúvida&lt;br&gt;alguma o de trocar os valores das variáveis
+          
+        
+      
+      </description>
+      
+      <comments>https://taciossbr.github.io/python/entenda-o-desempacotamento-do-python/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
