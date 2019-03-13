@@ -19,7 +19,7 @@ before_script:
 
 
 script:
-- hexo generate -d
+- hexo generate
 
 # Configure a Branch a ser feito o deploy
 after_success:
