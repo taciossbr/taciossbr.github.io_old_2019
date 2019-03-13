@@ -44,26 +44,26 @@ after_success:
 # -----------------------------------
 
 
-language:
-  - python 3.6
+# language:
+#   - python 3.6
 
-branches:
-  only:
-  # - pelican
-  - hexo
+# branches:
+#   only:
+#   # - pelican
+#   - hexo
 
-sudo: required
+# sudo: required
 
-install:
-  - sudo pip install --upgrade pip
-  - pip install pelican==4.0.1 --user
-  - pip install ghp-import==0.5.5 --user
-  - pip install Markdown==3.0.1 --user
-  - git clone https://github.com/gilsondev/pelican-clean-blog.git themes/pelican-clean-blog/
+# install:
+#   - sudo pip install --upgrade pip
+#   - pip install pelican==4.0.1 --user
+#   - pip install ghp-import==0.5.5 --user
+#   - pip install Markdown==3.0.1 --user
+#   - git clone https://github.com/gilsondev/pelican-clean-blog.git themes/pelican-clean-blog/
 
-script:
-  - make publish
+# script:
+#   - make publish
 
-after_success:
+# after_success:
 
-  - make github
+#   - make github
