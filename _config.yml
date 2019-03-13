@@ -100,7 +100,7 @@ theme_config:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:probberechts/hexo-theme-cactus.git
+  repo: git@github.com:taciossbr/taciossbr.github.io.git
   branch: master
 
 
