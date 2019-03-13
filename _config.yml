@@ -86,7 +86,7 @@ theme_config:
     twitter: https://twitter.com/taciossbr
   disqus:
     enabled: true
-    shortname: taciossbr-github
+    shortname: taciossbr-gh
 
   nav:
     Início: /
