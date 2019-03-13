@@ -30,8 +30,8 @@ after_success:
 - cp -r ../public/* .
 - git add -A .
 - git commit -m 'Site updated'
-- git branch -m hexo
-- git push -q -u origin hexo
+- git branch -m master
+- git push -q -u origin master
 
 
 
