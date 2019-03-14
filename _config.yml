@@ -101,6 +101,10 @@ theme_config:
     url: /images/profile.jpeg
     gravatar: false
 
+  google_analytics:
+    enabled: false
+    id: UA-136216557-1
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -121,6 +125,4 @@ feed:
   order_by: -date
   # icon: icon.png
 
-google_analytics:
-  enabled: false
-  id: UA-136216557-1
+
