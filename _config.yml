@@ -102,7 +102,7 @@ theme_config:
     gravatar: false
 
   google_analytics:
-    enabled: false
+    enabled: true
     id: UA-136216557-1
 
 

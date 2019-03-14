@@ -6323,3 +6323,279 @@
 {"name":"hexo","hostname":"tacioss-pc","pid":12993,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2019-03-13T22:57:25.212Z","v":0}
 {"name":"hexo","hostname":"tacioss-pc","pid":12993,"level":30,"msg":"Farewell","time":"2019-03-13T22:57:35.136Z","v":0}
 {"name":"hexo","hostname":"tacioss-pc","pid":12993,"level":20,"msg":"Database saved","time":"2019-03-13T22:57:35.154Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Writing database to /home/tacioss/workspace/blog/db.json","time":"2019-03-14T01:14:15.529Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Hexo version: \u001b[35m3.8.0\u001b[39m","time":"2019-03-14T01:14:15.637Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Working directory: \u001b[35m~/workspace/blog/\u001b[39m","time":"2019-03-14T01:14:15.639Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Config loaded: \u001b[35m~/workspace/blog/_config.yml\u001b[39m","time":"2019-03-14T01:14:16.054Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2019-03-14T01:14:16.234Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2019-03-14T01:14:16.250Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2019-03-14T01:14:16.266Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2019-03-14T01:14:16.281Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2019-03-14T01:14:16.315Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2019-03-14T01:14:16.355Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2019-03-14T01:14:16.380Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2019-03-14T01:14:16.793Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2019-03-14T01:14:17.460Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2019-03-14T01:14:17.483Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/merge-configs.js\u001b[39m","time":"2019-03-14T01:14:17.490Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/meta.js\u001b[39m","time":"2019-03-14T01:14:17.491Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/page_title.js\u001b[39m","time":"2019-03-14T01:14:17.491Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/thumbnail.js\u001b[39m","time":"2019-03-14T01:14:17.494Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Loading database.","time":"2019-03-14T01:14:17.503Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":30,"msg":"Start processing","time":"2019-03-14T01:14:17.621Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mabout.md\u001b[39m","time":"2019-03-14T01:14:17.706Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/css/rtl.styl\u001b[39m","time":"2019-03-14T01:14:17.815Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/css/style.styl\u001b[39m","time":"2019-03-14T01:14:17.816Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/images/apple-touch-icon.png\u001b[39m","time":"2019-03-14T01:14:17.816Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/images/favicon.ico\u001b[39m","time":"2019-03-14T01:14:17.816Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/images/favicon-192x192.png\u001b[39m","time":"2019-03-14T01:14:17.817Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/js/main.js\u001b[39m","time":"2019-03-14T01:14:17.817Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/js/search.js\u001b[39m","time":"2019-03-14T01:14:17.818Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Theme config loaded.","time":"2019-03-14T01:14:17.834Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2019-03-14T01:14:17.835Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35m_posts/2019/Fev/unpacking-python.md\u001b[39m","time":"2019-03-14T01:14:17.959Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2019-03-14T01:14:18.079Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2019-03-14T01:14:18.080Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2019-03-14T01:14:18.089Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2019-03-14T01:14:18.090Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2019-03-14T01:14:18.090Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/ca.yml\u001b[39m","time":"2019-03-14T01:14:18.097Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/es.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/fa.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/fr.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/it.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/nl.yml\u001b[39m","time":"2019-03-14T01:14:18.098Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/pl.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/pt-br.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/ru.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/tr.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2019-03-14T01:14:18.099Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.woff\u001b[39m","time":"2019-03-14T01:14:18.100Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.woff2\u001b[39m","time":"2019-03-14T01:14:18.101Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.woff\u001b[39m","time":"2019-03-14T01:14:18.102Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.woff2\u001b[39m","time":"2019-03-14T01:14:18.103Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.woff\u001b[39m","time":"2019-03-14T01:14:18.103Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.woff2\u001b[39m","time":"2019-03-14T01:14:18.103Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.woff\u001b[39m","time":"2019-03-14T01:14:18.104Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.woff2\u001b[39m","time":"2019-03-14T01:14:18.104Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.woff\u001b[39m","time":"2019-03-14T01:14:18.105Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.woff2\u001b[39m","time":"2019-03-14T01:14:18.105Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.woff\u001b[39m","time":"2019-03-14T01:14:18.105Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.woff2\u001b[39m","time":"2019-03-14T01:14:18.106Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/font-face.css\u001b[39m","time":"2019-03-14T01:14:18.106Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/images/logo.png\u001b[39m","time":"2019-03-14T01:14:18.107Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery/jquery.min.js\u001b[39m","time":"2019-03-14T01:14:18.110Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.ttf\u001b[39m","time":"2019-03-14T01:14:18.138Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.eot\u001b[39m","time":"2019-03-14T01:14:18.149Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.ttf\u001b[39m","time":"2019-03-14T01:14:18.149Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.eot\u001b[39m","time":"2019-03-14T01:14:18.152Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.eot\u001b[39m","time":"2019-03-14T01:14:18.152Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.eot\u001b[39m","time":"2019-03-14T01:14:18.153Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.ttf\u001b[39m","time":"2019-03-14T01:14:18.153Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.eot\u001b[39m","time":"2019-03-14T01:14:18.154Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.ttf\u001b[39m","time":"2019-03-14T01:14:18.154Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.ttf\u001b[39m","time":"2019-03-14T01:14:18.154Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.ttf\u001b[39m","time":"2019-03-14T01:14:18.155Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.eot\u001b[39m","time":"2019-03-14T01:14:18.155Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/css/all.min.css\u001b[39m","time":"2019-03-14T01:14:18.155Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.eot\u001b[39m","time":"2019-03-14T01:14:18.155Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.woff\u001b[39m","time":"2019-03-14T01:14:18.156Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.woff2\u001b[39m","time":"2019-03-14T01:14:18.156Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.ttf\u001b[39m","time":"2019-03-14T01:14:18.156Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.woff2\u001b[39m","time":"2019-03-14T01:14:18.157Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/justified-gallery/css/justifiedGallery.min.css\u001b[39m","time":"2019-03-14T01:14:18.157Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/justified-gallery/js/jquery.justifiedGallery.min.js\u001b[39m","time":"2019-03-14T01:14:18.158Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/comments.ejs\u001b[39m","time":"2019-03-14T01:14:18.175Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/footer.ejs\u001b[39m","time":"2019-03-14T01:14:18.175Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/header.ejs\u001b[39m","time":"2019-03-14T01:14:18.175Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/pagination.ejs\u001b[39m","time":"2019-03-14T01:14:18.175Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/head.ejs\u001b[39m","time":"2019-03-14T01:14:18.175Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/scripts.ejs\u001b[39m","time":"2019-03-14T01:14:18.176Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/search.ejs\u001b[39m","time":"2019-03-14T01:14:18.176Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/styles.ejs\u001b[39m","time":"2019-03-14T01:14:18.176Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.woff2\u001b[39m","time":"2019-03-14T01:14:18.178Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.woff\u001b[39m","time":"2019-03-14T01:14:18.178Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/actions_desktop.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/actions_mobile.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/category.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/gallery.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/date.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/share.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/tag.ejs\u001b[39m","time":"2019-03-14T01:14:18.253Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/title.ejs\u001b[39m","time":"2019-03-14T01:14:18.254Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.woff\u001b[39m","time":"2019-03-14T01:14:18.270Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.svg\u001b[39m","time":"2019-03-14T01:14:18.272Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.eot\u001b[39m","time":"2019-03-14T01:14:18.273Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.ttf\u001b[39m","time":"2019-03-14T01:14:18.273Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35m_posts/2019/Mar/tipos-placas-rede-virtualbox.md\u001b[39m","time":"2019-03-14T01:14:18.295Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.ttf\u001b[39m","time":"2019-03-14T01:14:18.298Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.eot\u001b[39m","time":"2019-03-14T01:14:18.298Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35mimages/profile.jpeg\u001b[39m","time":"2019-03-14T01:14:18.307Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:14:18.307Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Italic.ttf\u001b[39m","time":"2019-03-14T01:14:18.325Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:14:18.524Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:14:18.525Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Italic.ttf\u001b[39m","time":"2019-03-14T01:14:18.525Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Bold.ttf\u001b[39m","time":"2019-03-14T01:14:18.560Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Italic.ttf\u001b[39m","time":"2019-03-14T01:14:18.564Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Regular.ttf\u001b[39m","time":"2019-03-14T01:14:18.564Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Regular.ttf\u001b[39m","time":"2019-03-14T01:14:18.566Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Bold.ttf\u001b[39m","time":"2019-03-14T01:14:18.569Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Regular.ttf\u001b[39m","time":"2019-03-14T01:14:18.569Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Bold.ttf\u001b[39m","time":"2019-03-14T01:14:18.574Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.svg\u001b[39m","time":"2019-03-14T01:14:18.584Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.svg\u001b[39m","time":"2019-03-14T01:14:18.589Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-03-14T01:14:19.411Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-03-14T01:14:19.411Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-03-14T01:14:19.411Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-03-14T01:14:19.412Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-03-14T01:14:19.412Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-03-14T01:14:19.413Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-03-14T01:14:19.413Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-03-14T01:14:19.419Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000\u001b[24m . Press Ctrl+C to stop.","time":"2019-03-14T01:14:19.437Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Database saved","time":"2019-03-14T01:14:19.457Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2019-03-14T01:14:19.839Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":30,"msg":"Bye!","time":"2019-03-14T01:22:12.335Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7313,"level":20,"msg":"Database saved","time":"2019-03-14T01:22:12.378Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Writing database to /home/tacioss/workspace/blog/db.json","time":"2019-03-14T01:22:14.743Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Hexo version: \u001b[35m3.8.0\u001b[39m","time":"2019-03-14T01:22:14.769Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Working directory: \u001b[35m~/workspace/blog/\u001b[39m","time":"2019-03-14T01:22:14.777Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Config loaded: \u001b[35m~/workspace/blog/_config.yml\u001b[39m","time":"2019-03-14T01:22:14.956Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2019-03-14T01:22:14.987Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2019-03-14T01:22:14.989Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2019-03-14T01:22:14.993Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2019-03-14T01:22:14.994Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2019-03-14T01:22:14.996Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2019-03-14T01:22:15.001Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2019-03-14T01:22:15.008Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2019-03-14T01:22:15.010Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2019-03-14T01:22:15.094Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2019-03-14T01:22:15.160Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/merge-configs.js\u001b[39m","time":"2019-03-14T01:22:15.167Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/meta.js\u001b[39m","time":"2019-03-14T01:22:15.168Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/page_title.js\u001b[39m","time":"2019-03-14T01:22:15.168Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Script loaded: \u001b[35mthemes/cactus/scripts/thumbnail.js\u001b[39m","time":"2019-03-14T01:22:15.169Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Loading database.","time":"2019-03-14T01:22:15.179Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":30,"msg":"Start processing","time":"2019-03-14T01:22:15.265Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mabout.md\u001b[39m","time":"2019-03-14T01:22:15.355Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/css/rtl.styl\u001b[39m","time":"2019-03-14T01:22:15.472Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/css/style.styl\u001b[39m","time":"2019-03-14T01:22:15.473Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/images/apple-touch-icon.png\u001b[39m","time":"2019-03-14T01:22:15.473Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/images/favicon-192x192.png\u001b[39m","time":"2019-03-14T01:22:15.474Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/images/favicon.ico\u001b[39m","time":"2019-03-14T01:22:15.474Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/js/main.js\u001b[39m","time":"2019-03-14T01:22:15.475Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/js/search.js\u001b[39m","time":"2019-03-14T01:22:15.475Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Theme config loaded.","time":"2019-03-14T01:22:15.498Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2019-03-14T01:22:15.499Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35m_posts/2019/Fev/unpacking-python.md\u001b[39m","time":"2019-03-14T01:22:15.595Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35m_posts/2019/Mar/tipos-placas-rede-virtualbox.md\u001b[39m","time":"2019-03-14T01:22:15.595Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/ca.yml\u001b[39m","time":"2019-03-14T01:22:15.597Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2019-03-14T01:22:15.597Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2019-03-14T01:22:15.597Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/es.yml\u001b[39m","time":"2019-03-14T01:22:15.597Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/fa.yml\u001b[39m","time":"2019-03-14T01:22:15.598Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/fr.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/it.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/nl.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/pl.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/pt-br.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/ru.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/tr.yml\u001b[39m","time":"2019-03-14T01:22:15.599Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2019-03-14T01:22:15.600Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2019-03-14T01:22:15.600Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2019-03-14T01:22:15.635Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2019-03-14T01:22:15.635Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2019-03-14T01:22:15.635Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2019-03-14T01:22:15.635Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2019-03-14T01:22:15.635Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.woff\u001b[39m","time":"2019-03-14T01:22:15.639Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.woff\u001b[39m","time":"2019-03-14T01:22:15.640Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.woff2\u001b[39m","time":"2019-03-14T01:22:15.643Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.woff\u001b[39m","time":"2019-03-14T01:22:15.644Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.woff2\u001b[39m","time":"2019-03-14T01:22:15.644Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.woff2\u001b[39m","time":"2019-03-14T01:22:15.645Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.woff\u001b[39m","time":"2019-03-14T01:22:15.645Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.woff2\u001b[39m","time":"2019-03-14T01:22:15.646Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.woff\u001b[39m","time":"2019-03-14T01:22:15.648Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.woff2\u001b[39m","time":"2019-03-14T01:22:15.649Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/font-face.css\u001b[39m","time":"2019-03-14T01:22:15.649Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.woff\u001b[39m","time":"2019-03-14T01:22:15.650Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.woff2\u001b[39m","time":"2019-03-14T01:22:15.651Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery/jquery.min.js\u001b[39m","time":"2019-03-14T01:22:15.651Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/head.ejs\u001b[39m","time":"2019-03-14T01:22:15.671Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/header.ejs\u001b[39m","time":"2019-03-14T01:22:15.671Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/pagination.ejs\u001b[39m","time":"2019-03-14T01:22:15.671Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/scripts.ejs\u001b[39m","time":"2019-03-14T01:22:15.671Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/search.ejs\u001b[39m","time":"2019-03-14T01:22:15.672Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/styles.ejs\u001b[39m","time":"2019-03-14T01:22:15.672Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.eot\u001b[39m","time":"2019-03-14T01:22:15.686Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Black.ttf\u001b[39m","time":"2019-03-14T01:22:15.687Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.eot\u001b[39m","time":"2019-03-14T01:22:15.688Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Bold.ttf\u001b[39m","time":"2019-03-14T01:22:15.689Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.eot\u001b[39m","time":"2019-03-14T01:22:15.691Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Light.ttf\u001b[39m","time":"2019-03-14T01:22:15.692Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.ttf\u001b[39m","time":"2019-03-14T01:22:15.693Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.eot\u001b[39m","time":"2019-03-14T01:22:15.693Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Thin.ttf\u001b[39m","time":"2019-03-14T01:22:15.694Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.eot\u001b[39m","time":"2019-03-14T01:22:15.695Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir.ttf\u001b[39m","time":"2019-03-14T01:22:15.695Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/vazir-font/Vazir-Medium.eot\u001b[39m","time":"2019-03-14T01:22:15.696Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/images/logo.png\u001b[39m","time":"2019-03-14T01:22:15.696Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/css/all.min.css\u001b[39m","time":"2019-03-14T01:22:15.697Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.eot\u001b[39m","time":"2019-03-14T01:22:15.697Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.ttf\u001b[39m","time":"2019-03-14T01:22:15.697Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.woff\u001b[39m","time":"2019-03-14T01:22:15.698Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.woff2\u001b[39m","time":"2019-03-14T01:22:15.698Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.woff2\u001b[39m","time":"2019-03-14T01:22:15.699Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/justified-gallery/css/justifiedGallery.min.css\u001b[39m","time":"2019-03-14T01:22:15.700Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/justified-gallery/js/jquery.justifiedGallery.min.js\u001b[39m","time":"2019-03-14T01:22:15.700Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/comments.ejs\u001b[39m","time":"2019-03-14T01:22:15.710Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/footer.ejs\u001b[39m","time":"2019-03-14T01:22:15.712Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.woff\u001b[39m","time":"2019-03-14T01:22:15.714Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.woff2\u001b[39m","time":"2019-03-14T01:22:15.714Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.woff\u001b[39m","time":"2019-03-14T01:22:15.714Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/actions_desktop.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/actions_mobile.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/category.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/date.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/gallery.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/share.ejs\u001b[39m","time":"2019-03-14T01:22:15.740Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/tag.ejs\u001b[39m","time":"2019-03-14T01:22:15.741Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post/title.ejs\u001b[39m","time":"2019-03-14T01:22:15.741Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.ttf\u001b[39m","time":"2019-03-14T01:22:15.743Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.eot\u001b[39m","time":"2019-03-14T01:22:15.752Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:22:15.753Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-regular-400.svg\u001b[39m","time":"2019-03-14T01:22:15.760Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.eot\u001b[39m","time":"2019-03-14T01:22:15.761Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.ttf\u001b[39m","time":"2019-03-14T01:22:15.761Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:22:15.762Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Italic.ttf\u001b[39m","time":"2019-03-14T01:22:15.762Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Italic.ttf\u001b[39m","time":"2019-03-14T01:22:15.782Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-BoldItalic.ttf\u001b[39m","time":"2019-03-14T01:22:15.783Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Italic.ttf\u001b[39m","time":"2019-03-14T01:22:15.784Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Regular.ttf\u001b[39m","time":"2019-03-14T01:22:15.784Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Bold.ttf\u001b[39m","time":"2019-03-14T01:22:15.785Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35mimages/profile.jpeg\u001b[39m","time":"2019-03-14T01:22:15.790Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Bold.ttf\u001b[39m","time":"2019-03-14T01:22:15.791Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGL-Bold.ttf\u001b[39m","time":"2019-03-14T01:22:15.791Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGM-Regular.ttf\u001b[39m","time":"2019-03-14T01:22:15.829Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/meslo-LG/MesloLGS-Regular.ttf\u001b[39m","time":"2019-03-14T01:22:15.834Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-brands-400.svg\u001b[39m","time":"2019-03-14T01:22:15.836Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/webfonts/fa-solid-900.svg\u001b[39m","time":"2019-03-14T01:22:15.837Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-03-14T01:22:16.281Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-03-14T01:22:16.281Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-03-14T01:22:16.282Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-03-14T01:22:16.282Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-03-14T01:22:16.283Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-03-14T01:22:16.284Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-03-14T01:22:16.284Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-03-14T01:22:16.288Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000\u001b[24m . Press Ctrl+C to stop.","time":"2019-03-14T01:22:16.302Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Database saved","time":"2019-03-14T01:22:16.324Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2019-03-14T01:22:20.791Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":30,"msg":"See you again","time":"2019-03-14T01:22:41.951Z","v":0}
+{"name":"hexo","hostname":"tacioss-pc","pid":7854,"level":20,"msg":"Database saved","time":"2019-03-14T01:22:41.992Z","v":0}
