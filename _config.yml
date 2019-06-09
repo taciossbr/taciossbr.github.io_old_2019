@@ -15,7 +15,7 @@ timezone: America/Sao_Paulo
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://taciossbr.github.io
 root: /
-permalink: :category/:linkTitle/
+permalink: :category/:custom_slug/
 permalink_defaults:
 
 # Directory

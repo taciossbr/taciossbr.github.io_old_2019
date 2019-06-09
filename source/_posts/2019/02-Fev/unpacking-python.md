@@ -1,8 +1,11 @@
 ---
 title: Entenda o desempacotamento do Python
-linkTitle: entenda-o-desempacotamento-do-python
+custom_slug: entenda-o-desempacotamento-do-python
 date: 2019-02-04 10:00
-tags: [python, estrutura-de-dados, programacao]
+tags:
+  - "python"
+  - "estrutura-de-dados"
+  - "programacao"
 category: python
 
 summary: Entenda o que é o desempacotamento no Python e veja como usá-lo em seu

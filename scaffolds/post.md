@@ -1,5 +1,9 @@
 ---
 title: {{ title }}
+custom_slug: 
 date: {{ date }}
-tags:
+tags: 
+  - 
+category: 
+summary: Resumo
 ---

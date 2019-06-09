@@ -1,9 +1,12 @@
 ---
 title: Tipos de placas de rede no VirtualBox
 date: 2019-03-12 19:00
-tags: [virtualbox, rede, virtualizacao]
+tags: 
+  - "virtualbox"
+  - "rede"
+  - "virtualizacao"
 category: VMs
-linkTitle: tipos-de-placas-de-rede-no-virtualbox
+custom_slug: tipos-de-placas-de-rede-no-virtualbox
 summary: Conheça todos os tipos de placa de rede no virtalbox e entenda para que 
          e como usar.
 ---
